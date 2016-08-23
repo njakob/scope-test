@@ -14,7 +14,8 @@
     "url": "https://github.com/njakob/scope-test/issues"
   },
   "files": [
-    "lib/index.js"
+    "lib/index.js",
+    "lib/index.js.flow"
   ],
   "keywords": [
     "api",
