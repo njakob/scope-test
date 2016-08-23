@@ -1,6 +1,6 @@
 {
   "name": "scope-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple util to test collections of granted scope against required one",
   "author": "Nicolas Jakob <nicow.jakob@gmail.com>",
   "main": "lib/index.js",
