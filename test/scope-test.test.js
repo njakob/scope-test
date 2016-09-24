@@ -1,6 +1,6 @@
 
 import { expect } from 'chai';
-import scopeTest, { UngrantedScopeError } from '../lib';
+import { scopeTest, UngrantedScopeError } from '../lib';
 
 describe('test/scope-test.test.js', () => {
   describe('with no granted scopes', () => {

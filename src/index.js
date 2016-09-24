@@ -27,7 +27,7 @@ function buildTable(scopes: string[], ignoreCase: boolean): { [key: string]: str
   return table;
 }
 
-export default function (scopes: string[], options: OptionsType = {}) {
+export function scopeTest(scopes: string[], options: OptionsType = {}) {
   const ignoreCase = !!options.ignoreCase;
   const requiredScopesTable = buildTable(options.requiredScopes || [], ignoreCase);
   const requiredScopes = Object.keys(requiredScopesTable);
