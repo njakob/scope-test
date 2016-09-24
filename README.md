@@ -21,7 +21,7 @@ $ npm install scope-test
 ## Usage
 
 ```javascript
-const scopeTest = require('scope-test');
+import { scopeTest } from 'scope-test';
 
 try {
  scopeTest([ 'email' ], {
