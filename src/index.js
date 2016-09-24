@@ -20,7 +20,8 @@ export class UngrantedScopeError extends Error {
 
 function buildTable(scopes: string[], ignoreCase: boolean): { [key: string]: string; } {
   const table = {};
-  for (let i = scopes.length - 1; i >= 0; i -= 1) {
+  const length = scopes.length;
+  for (let i = 0; i < length; i += 1) {
     const scope = scopes[i];
     table[(ignoreCase ? scope.toLowerCase() : scope)] = scope;
   }
@@ -34,11 +35,13 @@ export function scopeTest(scopes: string[], options: OptionsType = {}) {
   const grantedScopesTable = buildTable(scopes, ignoreCase);
   const grantedScopes = Object.keys(grantedScopesTable);
   const missingScopes = [];
+  const requiredScopesLength = requiredScopes.length;
 
-  for (let i = requiredScopes.length - 1; i >= 0; i -= 1) {
+  for (let i = 0; i < requiredScopesLength; i += 1) {
     const requiredScope = requiredScopes[i];
+    const grantedScopesLength = grantedScopes.length;
     let granted = false;
-    for (let j = grantedScopes.length - 1; j >= 0; j -= 1) {
+    for (let j = 0; j < grantedScopesLength; j += 1) {
       if (grantedScopes[j] === requiredScope) {
         granted = true;
         break;
