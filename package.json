@@ -32,6 +32,7 @@
     "eslint-config-njakob": "^1.0.0",
     "eslint-plugin-flowtype": "^2.19.0",
     "eslint-plugin-import": "^1.15.0",
+    "flow-bin": "^0.32.0",
     "istanbul": "0.4.4",
     "mocha": "2.5.3",
     "should": "10.0.0"
