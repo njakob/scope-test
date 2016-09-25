@@ -14,7 +14,7 @@ Simple util to test collections of granted scope against required one.
 
 ## Installation
 
-[![NPM](npm-install-image)](npm)
+[![NPM][npm-install-image]][npm]
 
 ```
 $ npm install scope-test
@@ -37,7 +37,7 @@ try {
 
 ## Licences
 
-Scope-test is licensed under the [MIT License](licence).
+Scope-test is licensed under the [MIT License][licence].
 
 [licence]: LICENSE
 [npm]: https://nodei.co/npm/scope-test/
