@@ -1,6 +1,8 @@
 
 # scope-test
 
+[![NPM version][npm-status-image]][npm]
+
 Simple util to test collections of granted scope against required one.
 
 ## Features
@@ -12,7 +14,7 @@ Simple util to test collections of granted scope against required one.
 
 ## Installation
 
-[![NPM](https://nodei.co/npm/scope-test.png?downloads=true)](https://nodei.co/npm/scope-test/)
+[![NPM](npm-install-image)](npm)
 
 ```
 $ npm install scope-test
@@ -35,4 +37,9 @@ try {
 
 ## Licences
 
-[MIT](LICENSE)
+Scope-test is licensed under the [MIT License](licence).
+
+[licence]: LICENSE
+[npm]: https://nodei.co/npm/scope-test/
+[npm-install-image]: https://nodei.co/npm/scope-test.png?downloads=true
+[npm-status-image]: https://img.shields.io/npm/v/scope-test.svg
